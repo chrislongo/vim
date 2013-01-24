@@ -3,7 +3,7 @@ execute pathogen#infect()
 execute pathogen#helptags()
 filetype plugin on
 
-colorscheme wombat256mod
+colorscheme mortal-wombat
 
 syntax on
 
@@ -34,4 +34,4 @@ endif
 autocmd BufWritePost *.py call Flake8()
 nnoremap <CR> :noh<CR><CR>
 
-set wildignore+=node_modules/** 
+set wildignore+=**/node_modules/** 
