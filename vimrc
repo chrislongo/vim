@@ -12,7 +12,7 @@ set autowrite
 set colorcolumn=80
 set cursorline
 set expandtab
-set gfn=Monaco:h13
+set gfn=Menlo:h14
 set hlsearch
 set incsearch
 set number
@@ -35,3 +35,12 @@ autocmd BufWritePost *.py call Flake8()
 nnoremap <CR> :noh<CR><CR>
 
 set wildignore+=**/node_modules/** 
+
+" Show syntax highlighting groups for word under cursor
+nmap <C-S-P> :call <SID>SynStack()<CR>
+function! <SID>SynStack()
+    if !exists("*synstack")
+        return
+    endif
+    echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc

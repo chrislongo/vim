@@ -47,3 +47,6 @@
 [submodule "bundle/mw-utils"]
 	path = bundle/mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/hex-highlight"]
+	path = bundle/hex-highlight
+	url = https://github.com/yurifury/hexHighlight.git
