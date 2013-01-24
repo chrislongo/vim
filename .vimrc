@@ -1,3 +1,8 @@
+" Pathogen
+execute pathogen#infect()
+execute pathogen#helptags()
+filetype plugin on
+
 colorscheme wombat256mod
 
 syntax on
@@ -25,11 +30,6 @@ let &colorcolumn=join(range(81,999),",")
 if has("gui_running")
     set guioptions=egmrt
 endif
-
-" Pathogen
-execute pathogen#infect()
-execute pathogen#helptags()
-filetype plugin on
 
 autocmd BufWritePost *.py call Flake8()
 nnoremap <CR> :noh<CR><CR>
