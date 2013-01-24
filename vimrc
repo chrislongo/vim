@@ -23,6 +23,7 @@ set softtabstop=4
 set tabstop=4
 set vb
 
+" Change bg color > column 80
 let c_space_errors=1
 highlight ColorColumn ctermbg=236 guibg=#292929
 let &colorcolumn=join(range(81,999),",")
@@ -31,10 +32,9 @@ if has("gui_running")
     set guioptions=egmrt
 endif
 
+" Python lint
 autocmd BufWritePost *.py call Flake8()
 nnoremap <CR> :noh<CR><CR>
-
-set wildignore+=**/node_modules/** 
 
 " Show syntax highlighting groups for word under cursor
 nmap <C-S-P> :call <SID>SynStack()<CR>
@@ -44,3 +44,10 @@ function! <SID>SynStack()
     endif
     echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
+
+" Pig
+augroup filetypedetect 
+    au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
+augroup END 
+
+set wildignore+=**/node_modules/** 
