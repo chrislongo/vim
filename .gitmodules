@@ -1,0 +1,45 @@
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "colour-sampler-pack"]
+	path = colour-sampler-pack
+	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = https://github.com/wincent/Command-T.git
+[submodule "bundle/colour-sampler-pack"]
+	path = bundle/colour-sampler-pack
+	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
+[submodule "bundle/jshint"]
+	path = bundle/jshint
+	url = https://github.com/wookiehangover/jshint.vim.git
+[submodule "bundle/snipmate-nodejs"]
+	path = bundle/snipmate-nodejs
+	url = https://github.com/jamescarr/snipmate-nodejs.git
+[submodule "bundle/snipmate-snippets"]
+	path = bundle/snipmate-snippets
+	url = https://github.com/honza/snipmate-snippets.git
+[submodule "bundle/tlib"]
+	path = bundle/tlib
+	url = https://github.com/vim-scripts/tlib.git
+[submodule "bundle/vim-addon-mw-utils"]
+	path = bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/vim-flake8"]
+	path = bundle/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/vim-nodejs-complete"]
+	path = bundle/vim-nodejs-complete
+	url = https://github.com/myhere/vim-nodejs-complete.git
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
+[submodule "bundle/vim-snipmate"]
+	path = bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
