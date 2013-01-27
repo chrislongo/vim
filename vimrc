@@ -28,6 +28,8 @@ set tabstop=4
 set vb
 set visualbell
 
+set listchars=tab:▸\ ,eol:¬,trail:.
+
 if has("gui_running")
     set guioptions=egmrt
 endif
@@ -39,6 +41,9 @@ hi CursorLine cterm=NONE
 hi NonText guibg=#202020
 hi LineNr guibg=#181818 ctermbg=236
 let &colorcolumn=join(range(80,999),",")
+
+" This unsets the 'last search pattern' register by hitting return
+nnoremap <CR> :noh<CR><CR>
 
 " Pig
 augroup filetypedetect 
