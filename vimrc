@@ -8,24 +8,34 @@ syntax on
 
 set autoindent
 set autowrite
+filetype plugin on
+
+colorscheme Mustang
+syntax on
+
+set autoindent
+set autowrite
 set colorcolumn=80
 set cursorline
 set expandtab
 set gfn=Menlo:h14
+set hidden
 set hlsearch
 set incsearch
+set laststatus=2
 set nobackup
 set nofoldenable
 set noswapfile
-set nowb
 set nowrap
+set nowritebackup
+set nrformats=
 set number
 set ruler
 set shiftwidth=4
+set showcmd
 set showmatch
 set softtabstop=4
 set tabstop=4
-set vb
 set visualbell
 
 set listchars=tab:▸\ ,eol:¬,trail:.
