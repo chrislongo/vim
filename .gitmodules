@@ -44,6 +44,3 @@
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
-[submodule "bundle/ultisnips-snippets"]
-	path = bundle/ultisnips-snippets
-	url = https://github.com/chrislongo/ultisnips-snippets.git
