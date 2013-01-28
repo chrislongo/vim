@@ -18,11 +18,9 @@ set autowrite
 set colorcolumn=80
 set cursorline
 set expandtab
-set gfn=Menlo:h14
 set hidden
 set hlsearch
 set incsearch
-set laststatus=2
 set nobackup
 set nofoldenable
 set noswapfile
@@ -40,13 +38,9 @@ set visualbell
 
 set listchars=tab:▸\ ,eol:¬,trail:.
 
-if has("gui_running")
-    set guioptions=egmrt
-endif
-
 " Change bg color > column 80
 let c_space_errors=1
-hi ColorColumn ctermbg=236 guibg=#222222
+hi ColorColumn ctermbg=235 guibg=#222222
 hi CursorLine cterm=NONE
 hi NonText guibg=#202020
 hi LineNr guibg=#181818 ctermbg=236
