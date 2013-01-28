@@ -45,11 +45,11 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " Change bg color > column 80
 let c_space_errors=1
-hi ColorColumn ctermbg=235 guibg=#222222
+hi ColorColumn ctermbg=234 guibg=#222222
 hi CursorLine cterm=NONE
-hi NonText guibg=#202020
-hi LineNr guibg=#181818 ctermbg=236
-let &colorcolumn=join(range(80,999),",")
+hi NonText ctermbg=234 guibg=#202020
+hi LineNr guibg=#181818 ctermbg=234
+let &colorcolumn=join(range(81,999),",")
 
 " This unsets the 'last search pattern' register by hitting return
 nnoremap <CR> :noh<CR><CR>
