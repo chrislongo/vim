@@ -38,6 +38,11 @@ set visualbell
 
 set listchars=tab:▸\ ,eol:¬,trail:.
 
+" ultisnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
 " Change bg color > column 80
 let c_space_errors=1
 hi ColorColumn ctermbg=235 guibg=#222222
