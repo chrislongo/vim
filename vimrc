@@ -42,6 +42,7 @@ set listchars=tab:▸\ ,eol:¬,trail:.
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsSnippetsDir="~/.vim/bundle/ultisnips-snippets/UltiSnips"
 
 " Change bg color > column 80
 let c_space_errors=1
