@@ -29,6 +29,7 @@ set showmatch
 set softtabstop=4
 set tabstop=4
 set visualbell
+set wildmenu
 
 set listchars=tab:▸\ ,eol:¬,trail:.
 
