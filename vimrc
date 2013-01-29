@@ -8,13 +8,6 @@ syntax on
 
 set autoindent
 set autowrite
-filetype plugin on
-
-colorscheme Mustang
-syntax on
-
-set autoindent
-set autowrite
 set colorcolumn=80
 set cursorline
 set expandtab
