@@ -14,6 +14,7 @@ set expandtab
 set hidden
 set hlsearch
 set incsearch
+set laststatus=2
 set nobackup
 set nofoldenable
 set noswapfile
@@ -32,7 +33,7 @@ set visualbell
 set listchars=tab:▸\ ,eol:¬,trail:.
 
 " syntastic
-set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%{SyntasticStatuslineFlag()}
 let g:syntastic_check_on_open=1
 
 " ultisnips
