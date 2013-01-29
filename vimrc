@@ -38,6 +38,10 @@ set visualbell
 
 set listchars=tab:▸\ ,eol:¬,trail:.
 
+" syntastic
+set statusline+=%{SyntasticStatuslineFlag()}
+let g:syntastic_check_on_open=1
+
 " ultisnips
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
@@ -54,9 +58,6 @@ let &colorcolumn=join(range(81,999),",")
 
 " This unsets the 'last search pattern' register by hitting return
 nnoremap <CR> :noh<CR><CR>
-
-" toggle invisibles with leader-l
-nmap <leader>l :set list!<CR>
 
 " Pig
 augroup filetypedetect 
