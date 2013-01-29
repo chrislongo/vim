@@ -57,7 +57,7 @@ augroup filetypedetect
     au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
 augroup END 
 
-" For Command-T
+" For command-t
 set wildignore+=**/node_modules/**
 set wildignore+=*.pyc 
 set wildignore+=*.swp
