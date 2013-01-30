@@ -1,9 +1,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "colour-sampler-pack"]
-	path = colour-sampler-pack
-	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = https://github.com/wincent/Command-T.git
