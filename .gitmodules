@@ -6,7 +6,7 @@
 	url = https://github.com/wincent/Command-T.git
 [submodule "bundle/colour-sampler-pack"]
 	path = bundle/colour-sampler-pack
-	url = https://github.com/vim-scripts/Colour-Sampler-Pack.git
+	url = https://github.com/chrislongo/Colour-Sampler-Pack.git
 [submodule "bundle/jshint"]
 	path = bundle/jshint
 	url = https://github.com/wookiehangover/jshint.vim.git

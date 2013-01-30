@@ -3,7 +3,7 @@ execute pathogen#infect()
 execute pathogen#helptags()
 filetype plugin on
 
-colorscheme Mustang
+colorscheme mustang
 syntax on
 
 set autoindent
