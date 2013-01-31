@@ -1,7 +1,6 @@
 set clipboard=unnamed
 set gfn=Menlo:h14
 set guioptions=egmrt
-set laststatus=2 
 
 if has("gui_macvim")
     " command-t
