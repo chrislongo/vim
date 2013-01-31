@@ -41,3 +41,6 @@
 [submodule "bundle/signature"]
 	path = bundle/signature
 	url = https://github.com/kshenoy/vim-signature.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git
