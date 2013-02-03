@@ -55,6 +55,10 @@ let &colorcolumn=join(range(81,999),",")
 " This unsets the 'last search pattern' register by hitting return
 nnoremap <CR> :noh<CR><CR>
 
+" ctrlp
+let g:ctrlp_map = '<c-p>'
+"let g:ctrlp_cmd = 'CtrlPMixed'
+
 " Pig
 augroup filetypedetect 
     au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 

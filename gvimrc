@@ -5,7 +5,9 @@ set guioptions=egmrt
 if has("gui_macvim")
     " command-t
     macmenu &File.New\ Tab key=<nop>
-    map <D-t> :CommandT<CR>
+    map <D-t> :CtrlP<CR>
+    macmenu &File.Open\ Tab\.\.\. key=<nop>
+    map <D-T> :CtrlPBuffer<CR>
     
     " toggle list
     map <D-i> :set list!<CR>
