@@ -35,7 +35,6 @@ set wildmenu
 set listchars=tab:▸\ ,eol:¬,trail:.
 
 " syntastic
-"set statusline+=%{SyntasticStatuslineFlag()}
 let g:syntastic_check_on_open=1
 
 " ultisnips
@@ -55,16 +54,11 @@ let &colorcolumn=join(range(81,999),",")
 " This unsets the 'last search pattern' register by hitting return
 nnoremap <CR> :noh<CR><CR>
 
-" ctrlp
-let g:ctrlp_map = '<c-p>'
-"let g:ctrlp_cmd = 'CtrlPMixed'
-
 " Pig
 augroup filetypedetect 
     au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
 augroup END 
 
-" For command-t
 set wildignore+=**/node_modules/**
 set wildignore+=*.pyc 
 set wildignore+=*.swp
