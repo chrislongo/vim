@@ -1,5 +1,5 @@
 set clipboard=unnamed
-set gfn=Menlo:h14
+set gfn=Monaco:h13
 set guioptions=egmrt
 
 if has("gui_macvim")

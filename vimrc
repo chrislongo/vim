@@ -64,6 +64,10 @@ augroup filetypedetect
     au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
 augroup END 
 
+" session
+let g:session_autosave='yes'
+let g:session_autoload='yes'
+
 " For command-t
 set wildignore+=**/node_modules/**
 set wildignore+=*.pyc 
