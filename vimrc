@@ -34,6 +34,10 @@ set wildmenu
 
 set listchars=tab:▸\ ,eol:¬,trail:.
 
+" omnicomplete
+set ofu=syntaxcomplete#Complete
+let g:SuperTabDefaultCompletionType = "context"
+
 " syntastic
 let g:syntastic_check_on_open=1
 
