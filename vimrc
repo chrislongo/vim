@@ -58,10 +58,12 @@ let &colorcolumn=join(range(81,999),",")
 " This unsets the 'last search pattern' register by hitting return
 nnoremap <CR> :noh<CR><CR>
 
-" Pig
-augroup filetypedetect 
-    au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
-augroup END 
+" pig
+au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
+au BufWritePost *.coffee silent CoffeeMake!
+
+" coffeescript
+au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 
 " session
 let g:session_autosave='yes'
