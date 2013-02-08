@@ -40,3 +40,6 @@
 [submodule "bundle/session"]
 	path = bundle/session
 	url = https://github.com/xolox/vim-session.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
