@@ -60,9 +60,9 @@ nnoremap <CR> :noh<CR><CR>
 
 " pig
 au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
-au BufWritePost *.coffee silent CoffeeMake!
 
 " coffeescript
+au BufWritePost *.coffee silent CoffeeMake!
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
 
 " session
