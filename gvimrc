@@ -4,16 +4,18 @@ set guioptions=egmrt
 
 if has("gui_macvim")
     " ctrlp
-    macmenu &File.New\ Tab key=<nop>
+    macmenu &File.New\ Tab key=<NOP>
     map <D-t> :CtrlP<CR>
-    macmenu &File.Open\ Tab\.\.\. key=<nop>
+    macmenu &File.Open\ Tab\.\.\. key=<NOP>
     map <D-T> :CtrlPBuffer<CR>
+    map <D-2> :CtrlPBuffer<CR>
+    map <D-3> :CtrlPMRUFiles<CR>
     
     " toggle list
     map <D-i> :set list!<CR>
     
     " disable find dialog
-    macmenu Edit.Find.Find\.\.\. key=<nop>
+    macmenu Edit.Find.Find\.\.\. key=<NOP>
     map <D-f> /
 
     " toggle line wrap
