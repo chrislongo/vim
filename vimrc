@@ -1,7 +1,4 @@
-" Pathogen
-execute pathogen#infect()
-execute pathogen#helptags()
-filetype plugin on
+source ~/.vim/vundle.vim
 
 colorscheme mustang
 syntax on
@@ -44,7 +41,7 @@ let g:syntastic_check_on_open=1
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-let g:UltiSnipsSnippetsDir="~/.vim/bundle/ultisnips-snippets/UltiSnips"
+let g:UltiSnipsSnippetsDir="~/.vim/snippets/UltiSnips"
 
 let c_space_errors=1
 hi CursorLine cterm=NONE

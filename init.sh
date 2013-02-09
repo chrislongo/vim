@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-git submodule init
-git submodule update
+cd ~/.vim
+git clone https://github.com/gmarik/vundle.git bundle/vundle
