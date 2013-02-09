@@ -16,9 +16,10 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-unimpaired'
 Bundle 'vim-scripts/pig.vim'
 Bundle 'wookiehangover/jshint.vim'
 Bundle 'xolox/vim-session'
 
 filetype indent plugin on
+
+au BufReadPost vundlerc set syntax=vim

@@ -1,4 +1,4 @@
-source ~/.vim/vundle.vim
+source ~/.vim/vundlerc
 
 colorscheme mustang
 syntax on
