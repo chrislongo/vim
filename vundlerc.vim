@@ -21,5 +21,3 @@ Bundle 'wookiehangover/jshint.vim'
 Bundle 'xolox/vim-session'
 
 filetype indent plugin on
-
-au BufReadPost vundlerc set syntax=vim
