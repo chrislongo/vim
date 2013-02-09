@@ -3,12 +3,11 @@ execute pathogen#infect()
 execute pathogen#helptags()
 filetype plugin on
 
-colorscheme mustang
+colorscheme mustang 
 syntax on
 
 set autoindent
 set autowrite
-set colorcolumn=80
 set cursorline
 set expandtab
 set hidden
@@ -47,13 +46,15 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:UltiSnipsSnippetsDir="~/.vim/bundle/ultisnips-snippets/UltiSnips"
 
-" Change bg color > column 80
 let c_space_errors=1
-hi ColorColumn ctermbg=234 guibg=#222222
 hi CursorLine cterm=NONE
 hi NonText ctermbg=234 guibg=#202020
 hi LineNr guibg=#181818 ctermbg=234
-let &colorcolumn=join(range(81,999),",")
+hi ColorColumn ctermbg=234 guibg=#222222
+
+" highlight past line 80
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
 
 " This unsets the 'last search pattern' register by hitting return
 nnoremap <CR> :noh<CR><CR>

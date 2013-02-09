@@ -23,6 +23,7 @@ if has("gui_macvim")
     map <D-1> :NERDTreeToggle<CR>
 
     " buffers
-    map <D-6> :bnext<CR>
-    map <D-^> :bprev<CR>
+    map <D-]> :bnext<CR>
+    map <D-[> :bprev<CR>
+    map <D-Backspace> :bdelete<CR>
 endif
