@@ -5,6 +5,7 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
+Bundle 'Raimondi/delimitMate'
 Bundle 'SirVer/ultisnips'
 Bundle 'chrislongo/Colour-Sampler-Pack'
 Bundle 'derekwyatt/vim-scala'

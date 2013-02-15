@@ -33,6 +33,7 @@ set listchars=tab:▸\ ,eol:¬,trail:.
 " omnicomplete
 set ofu=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabContextDefaultCompletionType = "<C-X><C-O>"
 
 " syntastic
 let g:syntastic_check_on_open=1
