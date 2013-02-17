@@ -49,6 +49,7 @@ hi CursorLine cterm=NONE
 hi NonText ctermbg=234 guibg=#202020
 hi LineNr guibg=#181818 ctermbg=234
 hi ColorColumn ctermbg=234 guibg=#222222
+hi Visual guifg=NONE
 
 " highlight past line 80
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
@@ -62,17 +63,19 @@ au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
 
 " coffeescript
 au BufWritePost *.coffee silent CoffeeMake!
-au BufNewFile,BufReadPost *.coffee setl foldmethod=indent
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 
 " session
 let g:session_autosave='yes'
 let g:session_autoload='yes'
 
+" ignore these file types in ctrlp, etc.
 set wildignore+=**/node_modules/**
 set wildignore+=*.pyc 
 set wildignore+=*.swp
 set wildignore+=*DS_Store*
 
+" no array keys
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>

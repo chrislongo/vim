@@ -1,6 +1,7 @@
 set clipboard=unnamed
 set gfn=Monaco:h13
 set guioptions=egmrt
+set linespace=2
 
 if has("gui_macvim")
     " ctrlp
