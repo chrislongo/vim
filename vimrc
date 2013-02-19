@@ -31,7 +31,7 @@ set wildmenu
 set listchars=tab:▸\ ,eol:¬,trail:.
 
 " omnicomplete
-set ofu=syntaxcomplete#Complete
+set omnifunc=syntaxcomplete#Complete
 let g:SuperTabDefaultCompletionType = "context"
 let g:SuperTabContextDefaultCompletionType = "<C-X><C-O>"
 
