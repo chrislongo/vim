@@ -1,7 +1,7 @@
 source ~/.vim/vundlerc.vim
 
 set background=dark
-colorscheme mustang
+colorscheme xoria256 
 syntax on
 
 set autoindent
@@ -47,10 +47,10 @@ let g:UltiSnipsSnippetsDir="~/.vim/snippets/UltiSnips"
 
 let c_space_errors=1
 hi CursorLine cterm=NONE
-hi NonText ctermbg=234 guibg=#202020
-hi LineNr guibg=#181818 ctermbg=234
-hi ColorColumn ctermbg=234 guibg=#222222
 hi Visual guifg=NONE
+"hi NonText ctermbg=234 guibg=#202020
+"hi LineNr guibg=#181818 ctermbg=234
+"hi ColorColumn ctermbg=234 guibg=#222222
 
 " highlight past line 80
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
