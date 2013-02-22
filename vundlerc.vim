@@ -3,13 +3,13 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
-
 Bundle 'Raimondi/delimitMate'
 Bundle 'SirVer/ultisnips'
+Bundle 'chriskempson/base16-vim'
 Bundle 'chrislongo/Colour-Sampler-Pack'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'ervandew/supertab'
+Bundle 'gmarik/vundle'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'kshenoy/vim-signature'

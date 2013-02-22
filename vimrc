@@ -1,5 +1,6 @@
 source ~/.vim/vundlerc.vim
 
+set background=dark
 colorscheme mustang
 syntax on
 
