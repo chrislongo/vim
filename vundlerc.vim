@@ -6,6 +6,7 @@ call vundle#rc()
 Bundle 'Raimondi/delimitMate'
 Bundle 'SirVer/ultisnips'
 Bundle 'chriskempson/base16-vim'
+Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'chrislongo/Colour-Sampler-Pack'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'ervandew/supertab'
