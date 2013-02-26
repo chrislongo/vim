@@ -23,6 +23,7 @@ set ruler
 set shiftwidth=4
 set showcmd
 set showmatch
+set showmode
 set smartcase
 set softtabstop=4
 set tabstop=4
