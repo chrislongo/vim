@@ -5,6 +5,7 @@ call vundle#rc()
 
 Bundle 'Raimondi/delimitMate'
 Bundle 'SirVer/ultisnips'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'chriskempson/base16-vim'
 Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'chrislongo/Colour-Sampler-Pack'

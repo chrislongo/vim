@@ -17,7 +17,7 @@ set nofoldenable
 set noswapfile
 set nowrap
 set nowritebackup
-set nrformats=
+set nrformats=hex
 set number
 set ruler
 set shiftwidth=4
@@ -77,7 +77,7 @@ set wildignore+=*.pyc
 set wildignore+=*.swp
 set wildignore+=*DS_Store*
 
-" no array keys
+" no arrow keys
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
