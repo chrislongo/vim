@@ -1,7 +1,7 @@
 source ~/.vim/vundlerc.vim
 
 set background=dark
-colorscheme dusk
+colorscheme dusk2
 syntax on
 
 set autoindent
