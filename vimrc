@@ -1,8 +1,13 @@
 source ~/.vim/vundlerc.vim
 
 set background=dark
-colorscheme dusk2
 syntax on
+
+if has('gui')
+    colorscheme dusk2
+else
+    colorscheme mustang
+endif
 
 set autoindent
 set autowrite
@@ -86,3 +91,8 @@ imap <Up> <NOP>
 imap <Down> <NOP>
 imap <Left> <NOP>
 imap <Right> <NOP>
+
+" Show syntax highlighting groups for word under cursor
+nmap <leader>z :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR> 
