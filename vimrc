@@ -1,13 +1,12 @@
 source ~/.vim/vundlerc.vim
 
 set background=dark
-syntax on
-
-if has('gui')
-    colorscheme dusk2
-else
-    colorscheme mustang
+if has("gui_running") 
+    colorscheme dusk2 
+else 
+    colorscheme mustang 
 endif
+syntax on
 
 set autoindent
 set autowrite
@@ -54,9 +53,6 @@ let g:UltiSnipsSnippetsDir="~/.vim/snippets/UltiSnips"
 let c_space_errors=1
 hi CursorLine cterm=NONE
 hi Visual guifg=NONE
-"hi NonText ctermbg=234 guibg=#202020
-"hi LineNr guibg=#181818 ctermbg=234
-"hi ColorColumn ctermbg=234 guibg=#222222
 
 " highlight past line 80
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
@@ -71,6 +67,7 @@ au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
 " coffeescript
 au BufWritePost *.coffee silent CoffeeMake!
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+au BufNewFile,BufReadPost *.rb setl shiftwidth=2 expandtab
 
 " session
 let g:session_autosave='yes'
@@ -91,8 +88,3 @@ imap <Up> <NOP>
 imap <Down> <NOP>
 imap <Left> <NOP>
 imap <Right> <NOP>
-
-" Show syntax highlighting groups for word under cursor
-nmap <leader>z :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
-\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
-\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR> 

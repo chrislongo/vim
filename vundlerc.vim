@@ -21,6 +21,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/pig.vim'
+Bundle 'wikitopian/hardmode'
 Bundle 'wookiehangover/jshint.vim'
 Bundle 'xolox/vim-session'
 

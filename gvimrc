@@ -1,3 +1,5 @@
+colorscheme dusk2 
+
 set clipboard=unnamed
 set gfn=Monaco:h13
 set guioptions=egmrt
