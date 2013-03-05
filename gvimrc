@@ -1,9 +1,13 @@
 colorscheme dusk2 
 
 set clipboard=unnamed
-set gfn=Monaco:h13
+if has("mac")
+	set gfn=Monaco:h13
+    set linespace=2
+elseif has("gui_gtk2")
+    set gfn=Inconsolata\ 13
+endif
 set guioptions=egmrt
-set linespace=2
 
 if has("gui_macvim")
     " ctrlp
