@@ -2,7 +2,7 @@ source ~/.vim/vundlerc.vim
 
 set background=dark
 if has("gui_running") 
-    colorscheme base16-monokai
+    colorscheme dusk2
 else 
     colorscheme mustang 
 endif
