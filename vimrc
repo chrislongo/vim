@@ -67,6 +67,7 @@ au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
 au BufWritePost *.coffee silent CoffeeMake!
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 au BufNewFile,BufReadPost *.rb setl shiftwidth=2 expandtab
+au BufNewFile,BufReadPost *.xml setl shiftwidth=2 expandtab
 
 " session
 let g:session_autosave='yes'
