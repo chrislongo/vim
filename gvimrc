@@ -5,7 +5,7 @@ if has("mac")
 	set gfn=Monaco:h13
     set linespace=2
 elseif has("gui_gtk2")
-    set gfn=Inconsolata\ 13
+    set gfn=Ubuntu\ Mono\ 12
 endif
 set guioptions=egmrt
 

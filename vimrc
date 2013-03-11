@@ -1,13 +1,14 @@
 source ~/.vim/vundlerc.vim
 
 set background=dark
-if has("gui_running") 
+if has("gui_macvim") 
     colorscheme dusk2
 else 
-    colorscheme mustang 
+    colorscheme wombat256mod
 endif
 syntax on
 
+set t_Co=256
 set autoindent
 set autowrite
 set cursorline
@@ -67,6 +68,7 @@ au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
 au BufWritePost *.coffee silent CoffeeMake!
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 au BufNewFile,BufReadPost *.rb setl shiftwidth=2 expandtab
+au BufNewFile,BufReadPost *.xml setl shiftwidth=2 expandtab
 
 " session
 let g:session_autosave='yes'
