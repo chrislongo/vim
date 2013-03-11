@@ -1,5 +1,3 @@
-colorscheme dusk2 
-
 set guioptions=egmrt
 set clipboard=unnamed
 
