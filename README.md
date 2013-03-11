@@ -11,4 +11,3 @@ Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
     ./init.sh
-    vim +BundleInstall +qall

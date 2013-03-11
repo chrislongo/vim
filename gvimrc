@@ -1,13 +1,14 @@
 colorscheme dusk2 
 
+set guioptions=egmrt
 set clipboard=unnamed
+
 if has("mac")
 	set gfn=Monaco:h13
     set linespace=2
 elseif has("gui_gtk2")
     set gfn=Ubuntu\ Mono\ 12
 endif
-set guioptions=egmrt
 
 " nop out redundant MacVim menu items
 if has("gui_macvim")
