@@ -54,8 +54,8 @@ hi CursorLine cterm=NONE
 hi Visual guifg=NONE
 
 " highlight past line 80
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+"match OverLength /\%81v.\+/
 
 " This unsets the 'last search pattern' register by hitting return
 nnoremap <CR> :noh<CR><CR>
