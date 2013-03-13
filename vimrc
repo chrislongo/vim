@@ -65,6 +65,8 @@ au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
 
 " coffeescript
 au BufWritePost *.coffee silent CoffeeMake!
+
+" file types with 2 spaces for indent
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 au BufNewFile,BufReadPost *.rb setl shiftwidth=2 expandtab
 au BufNewFile,BufReadPost *.xml setl shiftwidth=2 expandtab
