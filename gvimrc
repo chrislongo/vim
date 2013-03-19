@@ -1,4 +1,4 @@
-set guioptions=egmrt
+set guioptions=egmr
 set clipboard=unnamed
 
 if has("mac")
