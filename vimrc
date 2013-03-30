@@ -54,10 +54,6 @@ let c_space_errors=1
 hi CursorLine cterm=NONE
 hi Visual guifg=NONE
 
-" highlight past line 80
-"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-"match OverLength /\%81v.\+/
-
 " This unsets the 'last search pattern' register by hitting return
 nnoremap <CR> :noh<CR><CR>
 
@@ -66,7 +62,9 @@ au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
 
 " coffeescript
 au BufWritePost *.coffee silent CoffeeMake!
-au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
+
+" file types with 2 spaces for indent
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab tabstop=2 
 au BufNewFile,BufReadPost *.rb setl shiftwidth=2 expandtab
 au BufNewFile,BufReadPost *.xml setl shiftwidth=2 expandtab
 
