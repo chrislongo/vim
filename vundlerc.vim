@@ -22,6 +22,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/pig.vim'
 Bundle 'wikitopian/hardmode'
 Bundle 'wookiehangover/jshint.vim'
+Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-session'
 
 filetype indent plugin on
