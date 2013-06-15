@@ -2,7 +2,7 @@ source ~/.vim/vundlerc.vim
 
 set background=dark
 if has("gui_macvim") 
-    colorscheme dusk2
+    colorscheme base16-tomorrow 
 else 
     colorscheme wombat256mod
 endif
