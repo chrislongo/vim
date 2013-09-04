@@ -1,9 +1,9 @@
 source ~/.vim/vundlerc.vim
 
 set background=dark
-if has("gui_macvim") 
-    colorscheme base16-tomorrow 
-else 
+if has("gui_macvim")
+    colorscheme base16-tomorrow
+else
     colorscheme wombat256mod
 endif
 syntax on
@@ -58,13 +58,13 @@ hi Visual guifg=NONE
 nnoremap <CR> :noh<CR><CR>
 
 " pig
-au BufNewFile,BufRead *.pig set filetype=pig syntax=pig 
+au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
 
 " coffeescript
 au BufWritePost *.coffee silent CoffeeMake!
 
 " file types with 2 spaces for indent
-au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab tabstop=2 
+au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab tabstop=2
 au BufNewFile,BufReadPost *.rb setl shiftwidth=2 expandtab
 au BufNewFile,BufReadPost *.xml setl shiftwidth=2 expandtab
 
@@ -74,7 +74,7 @@ let g:session_autoload='yes'
 
 " ignore these file types in ctrlp, etc.
 set wildignore+=**/node_modules/**
-set wildignore+=*.pyc 
+set wildignore+=*.pyc
 set wildignore+=*.swp
 set wildignore+=*DS_Store*
 
@@ -87,3 +87,7 @@ imap <Up> <NOP>
 imap <Down> <NOP>
 imap <Left> <NOP>
 imap <Right> <NOP>
+
+" airline
+let g:airline_left_sep=''
+let g:airline_right_sep=''
