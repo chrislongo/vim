@@ -1,4 +1,4 @@
-ssource ~/.vim/vundlerc.vim
+source ~/.vim/vundlerc.vim
 
 set background=dark
 if has("gui_running")
