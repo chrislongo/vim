@@ -1,7 +1,7 @@
-source ~/.vim/vundlerc.vim
+ssource ~/.vim/vundlerc.vim
 
 set background=dark
-if has("gui_macvim")
+if has("gui_running")
     colorscheme base16-tomorrow
 else
     colorscheme wombat256mod
@@ -34,6 +34,7 @@ set softtabstop=4
 set tabstop=4
 set wildmenu
 
+scriptencoding utf-8
 set listchars=tab:▸\ ,eol:¬,trail:.
 
 " omnicomplete
