@@ -2,7 +2,7 @@ set guioptions=egmr
 set clipboard=unnamed
 
 if has("mac")
-	set gfn=Monaco:h13
+	set gfn=Monaco:h12
     set linespace=2
 elseif has("gui_gtk2")
     set gfn=Ubuntu\ Mono\ 12
