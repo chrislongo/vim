@@ -1,31 +1,35 @@
+set nocompatible 
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'Raimondi/delimitMate'
-Bundle 'SirVer/ultisnips'
-Bundle 'bling/vim-airline'
-Bundle 'chriskempson/base16-vim'
-Bundle 'chriskempson/vim-tomorrow-theme'
-Bundle 'chrislongo/Colour-Sampler-Pack'
-Bundle 'davidhalter/jedi-vim'
-Bundle 'derekwyatt/vim-scala'
-Bundle 'ervandew/supertab'
-Bundle 'gmarik/vundle'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'kien/ctrlp.vim'
-Bundle 'kshenoy/vim-signature'
-Bundle 'pangloss/vim-javascript'
-"Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-vinegar.git'
-Bundle 'vim-scripts/pig.vim'
-Bundle 'wikitopian/hardmode'
-Bundle 'wookiehangover/jshint.vim'
-Bundle 'xolox/vim-misc'
-Bundle 'xolox/vim-session'
+Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'Raimondi/delimitMate'
+Plugin 'SirVer/ultisnips'
+Plugin 'bling/vim-airline'
+Plugin 'chriskempson/base16-vim'
+Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'chrislongo/Colour-Sampler-Pack'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'ervandew/supertab'
+Plugin 'gmarik/vundle'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'kien/ctrlp.vim'
+"Plugin 'kshenoy/vim-signature'
+Plugin 'pangloss/vim-javascript'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-vinegar.git'
+Plugin 'vim-scripts/pig.vim'
+Plugin 'wikitopian/hardmode'
+Plugin 'wookiehangover/jshint.vim'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-session'
+
+call vundle#end()  
 filetype indent plugin on

@@ -26,6 +26,7 @@ set nrformats=hex
 set number
 set ruler
 set shiftwidth=4
+set shell=/bin/bash
 set showcmd
 set showmatch
 set showmode
