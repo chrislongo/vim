@@ -3,3 +3,5 @@
 .netrwhist
 sessions/
 bundle/
+autoload/
+plugged/
