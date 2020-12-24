@@ -59,12 +59,6 @@ hi Visual guifg=NONE
 " This unsets the 'last search pattern' register by hitting return
 nnoremap <CR> :noh<CR><CR>
 
-" pig
-au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
-
-" coffeescript
-au BufWritePost *.coffee silent CoffeeMake!
-
 " file types with 2 spaces for indent
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab tabstop=2
 au BufNewFile,BufReadPost *.rb setl shiftwidth=2 expandtab
@@ -80,16 +74,5 @@ set wildignore+=*.pyc
 set wildignore+=*.swp
 set wildignore+=*DS_Store*
 
-" no arrow keys
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
-imap <Up> <NOP>
-imap <Down> <NOP>
-imap <Left> <NOP>
-imap <Right> <NOP>
-
-" airline
-let g:airline_left_sep=''
-let g:airline_right_sep=''
+" Rainbow parentheses improved
+let g:rainbow_active = 1
