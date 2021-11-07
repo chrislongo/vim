@@ -4,7 +4,7 @@ set background=dark
 if has("gui_running")
     colorscheme base16-tomorrow
 else
-    colorscheme wombat256mod
+    colorscheme onehalfdark
 endif
 syntax on
 
