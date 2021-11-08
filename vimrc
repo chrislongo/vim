@@ -4,7 +4,8 @@ set background=dark
 if has("gui_running")
     colorscheme base16-tomorrow
 else
-    colorscheme onehalfdark
+    let g:gruvbox_italic=1
+    colorscheme gruvbox
 endif
 syntax on
 
@@ -26,7 +27,6 @@ set nrformats=hex
 set number
 set ruler
 set shiftwidth=4
-set shell=/bin/bash
 set showcmd
 set showmatch
 set showmode
