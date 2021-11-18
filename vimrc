@@ -4,8 +4,8 @@ set background=dark
 if has("gui_running")
     colorscheme base16-tomorrow
 else
-    let g:gruvbox_italic=1
-    colorscheme gruvbox
+    "let g:gruvbox_italic=1
+    colorscheme dracula
 endif
 syntax on
 
