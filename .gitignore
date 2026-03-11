@@ -1,6 +1,7 @@
 *.swp
 .DS_Store
 .netrwhist
+lazy-lock.json
 sessions/
 bundle/
 autoload/
