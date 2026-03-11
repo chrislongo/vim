@@ -1,13 +1,20 @@
-Installation:
+# vim / neovim config
+
+## Installation
+
+Clone the repo:
 
     git clone https://github.com/chrislongo/vim.git ~/.vim
 
-Create symlinks:
+Symlink the Neovim config directory:
+
+    ln -s ~/.vim ~/.config/nvim
+
+Symlink Vim files (optional, if also using Vim):
 
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
-Switch to the `~/.vim` directory, and fetch submodules:
+Open Neovim — lazy.nvim will install itself and all plugins automatically on first launch:
 
-    cd ~/.vim
-    ./init.sh
+    nvim
