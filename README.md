@@ -2,6 +2,13 @@
 
 ## Installation
 
+Optionally, back up existing configs before installing:
+
+    mv ~/.vim ~/.vim.bak 2>/dev/null
+    mv ~/.config/nvim ~/.config/nvim.bak 2>/dev/null
+    mv ~/.vimrc ~/.vimrc.bak 2>/dev/null
+    mv ~/.gvimrc ~/.gvimrc.bak 2>/dev/null
+
 Clone the repo:
 
     git clone https://github.com/chrislongo/vim.git ~/.vim
